@@ -33,5 +33,3 @@ Use the bucket for storing user files, application logs, and backups.
 
 Use IAM for Access Control:
 Define IAM roles and policies using Terraform for controlling access to AWS resources. 
-Define roles for EC2 instances, RDS, ELB, and other resources. 
-Use IAM to control access to S3 buckets.
