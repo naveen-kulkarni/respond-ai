@@ -1,4 +1,4 @@
-Create a VPC:
+Created a VPC:
 created a VPC using Terraform with public and private subnets in two different availability zones.
 Associate a route table with the public subnet that has a route to the internet gateway. 
 Associate a route table with the private subnet that has a route to the NAT gateway. 
@@ -9,10 +9,10 @@ Launch EC2 instances using Terraform in the public subnets.
 Install and configure the web server on each instance using shell script. 
 
 
-Create RDS Instance:
+Created RDS Instance:
 created an RDS instance using Terraform in the private subnet. 
 
-Create an ELB:
+Created an ELB:
 created an auto scaling group and associate it with the launch configuration. Set up health checks for the instances.
 created an ELB using Terraform and associate it with the auto scaling group. 
 Configure the listeners and health checks. Ensure that the ELB is associated with the public subnets.
